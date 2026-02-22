@@ -51,6 +51,4 @@ Yes. Any publicly registered taxonomy associated with the selected post type wil
 
 ## Changelog
 
-### 0.1.0
-
-* Initial release.
+All notable changes to this project will be documented in the [CHANGELOG.md](CHANGELOG.md).
