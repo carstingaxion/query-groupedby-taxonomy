@@ -274,6 +274,6 @@ const withGroupByTaxonomyControls = createHigherOrderComponent(
 
 addFilter(
 	'editor.BlockEdit',
-	'telex/query-posts-grouped-extension',
+	'carstingaxion/query-groupedby-taxonomy',
 	withGroupByTaxonomyControls
 );
