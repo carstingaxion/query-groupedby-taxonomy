@@ -1,0 +1,31 @@
+/**
+ * Editor styles for the Query Loop Group by Taxonomy extension panel.
+ *
+ * @package QueryGroupedbyTaxonomy
+ * @since   0.1.0
+ */
+
+.query-groupedby-taxonomy-panel {
+
+	/**
+	 * Loading state with spinner and label.
+	 */
+	&__loading {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		padding: 8px 0;
+
+		span {
+			font-size: 13px;
+			color: #757575;
+		}
+	}
+
+	/**
+	 * Info notice styling override for better spacing.
+	 */
+	&__notice {
+		margin-top: 16px;
+	}
+}
