@@ -28,8 +28,7 @@ This plugin adds a **Group by Taxonomy** Inspector panel to the core Query Loop 
 * Supports any public taxonomy associated with the selected post type.
 * Uses `pre_render_block` and `query_loop_block_query_vars` to inject custom query variables.
 * Modifies the SQL via `posts_clauses` for efficient taxonomy-based ordering and grouping.
-* No additional blocks required — works directly with the existing Query Loop.
-* Clean, BEM-compliant editor styles.
+* No additional blocks required — works directly with the existing `core/query` block and its variations.
 * Fully compliant with WordPress and WordPress VIP coding standards.
 
 ## Installation
